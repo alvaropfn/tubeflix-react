@@ -1,0 +1,56 @@
+
+.category-slider {
+  overflow: hidden;
+  height: 150px;
+}
+
+.slick-list{
+  position: relative;
+  top: -150px;
+}
+
+.category-slider .slick-track{
+  display: flex;
+  flex-flow: row;
+}
+
+
+.category-slider .slick-track .slick-slide{
+  margin: 0 2px;
+  min-width: 300px;
+}
+
+.category-slider .category-item{
+  width: 300px;
+  height: 150px;
+  background: url(http://unsplash.it/300/150?random&gravity=center) no-repeat center center;
+  padding: 5px;
+}
+
+.category-slider .slick-arrow{
+  position: relative !important;
+  background: rgba(20,20,20,.5);
+  color: var(--white);
+  width: 25px;
+  /* height: 25px; */
+  height: 150px;
+  
+  border: none;
+  z-index: 100;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.category-slider .slick-arrow:hover{
+  background: rgba(80,0,0,.5);
+}
+
+.category-slider .slick-arrow.slick-prev{
+  top: 0px;
+  left: 5px;
+}
+
+.category-slider .slick-arrow.slick-next{
+  top: -300px;
+  left: calc(100% - 35px);
+}

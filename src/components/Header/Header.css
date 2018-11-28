@@ -1,0 +1,36 @@
+.main-header{
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 100%;
+  background: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header .logo{
+  color: red;
+  font-family: BebasNeue;
+  letter-spacing: 3px
+}
+
+.material-icon-container{
+  display: flex;
+  padding: auto 20px;
+}
+
+.material-icon-container.rigth-container{
+  width: 80px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icon-container .material-icon{
+  height: 36px;
+  width: 36px;
+  fill: #fff;
+}

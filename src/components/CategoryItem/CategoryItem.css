@@ -1,0 +1,22 @@
+.category{
+  background: var(--dark);
+  margin-top: 20px;
+  width: 100%;
+  height: 175px;
+  color: var(--white);
+}
+
+.category .category-title{
+  width: fit-content;
+  color: red;
+  position: relative;
+  top: -15px;
+  left: 18px;
+}
+
+.category .category-item-list{
+  width: 100%;
+  height: 175px;
+}
+
+
